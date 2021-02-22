@@ -1,0 +1,6 @@
+
+1. Programowanie aplikacji mobilnych (Java i Android) - dr inż. Artur Bartoszewski
+http://www.bartoszewski.pr.radom.pl/am.html
+
+2. Programowanie urządzeń mobilnych - dr inż. Andrzej Grosser
+https://icis.pcz.pl/~agrosser/dydaktyka/pum/pum.html
