@@ -6,12 +6,11 @@ import GarageWithCarInside from './GarageWithCarIsnside';
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
-      <h3>Car with state:</h3>
+      <h3>1. Car with state:</h3>
       <CarWithState />
-      <h3>Car with props:</h3>
+      <h3>2. Car with props:</h3>
       <CarWithProps color="blue" brand="Opel"/>
-      <h3>Garage with car inside:</h3>
+      <h3>3. Garage with car inside:</h3>
       <GarageWithCarInside />
     </div>
   );

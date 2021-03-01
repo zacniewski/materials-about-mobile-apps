@@ -7,8 +7,8 @@ class GarageWithCarInside extends React.Component {
     const carname = "Renault";
 
     return <h2>
-          I'm a garage and what's inside me?: 
-          <ul>
+          I'm a garage with: 
+          <ol>
             <li>
               <CarWithState />
             </li> 
@@ -18,7 +18,7 @@ class GarageWithCarInside extends React.Component {
             <li>
               <CarWithProps brand={carname} />
             </li>
-          </ul>
+          </ol>
         </h2>;
   }
 }
