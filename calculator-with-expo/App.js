@@ -75,11 +75,10 @@ export default class App extends Component {
           style={{ height: 40, 
             borderColor: 'gray', 
             borderWidth: 2, 
-            autoFocus: true,
             textAlign: 'center',
             marginBottom: 30}}
         />
-        Wynik: 
+
         <Text style={styles.paragraph}>
           {this.state.text}
         </Text>
