@@ -1,0 +1,13 @@
+{
+  "hello": "Hello",
+  "views.auth.onboarding.get-started": "Get Started",
+  "views.auth.onboarding.schedule.submit": "Sign Up",
+  "views.auth.onboarding.schedule.subtitle": "There is no set schedule and you can learn whenever you want to.",
+  "views.auth.onboarding.schedule.title": "Fully Flexible Schedule",
+  "views.auth.onboarding.skills.subtitle": "Learn almost any skill from a comfort of your home with our app.",
+  "views.auth.onboarding.skills.title": "Start Learning New Skills",
+  "views.auth.onboarding.skip": "Skip",
+  "views.auth.onboarding.tutors.submit": "Continue",
+  "views.auth.onboarding.tutors.subtitle": "You can easily connect with thousands of tutors by using our platform.",
+  "views.auth.onboarding.tutors.title": "Connect With the Tutors"
+}

@@ -1,0 +1,13 @@
+{
+  "hello": "Cześć",
+  "views.auth.onboarding.get-started": "Zaczynajmy",
+  "views.auth.onboarding.schedule.submit": "Zapisz się",
+  "views.auth.onboarding.schedule.subtitle": "Nie ma ustalonego harmonogramu i możesz się uczyć, kiedy tylko chcesz.",
+  "views.auth.onboarding.schedule.title": "W pełni elastyczny harmonogram",
+  "views.auth.onboarding.skills.subtitle": "Dzięki naszej aplikacji możesz nauczyć się prawie wszystkich umiejętności w zaciszu własnego domu.",
+  "views.auth.onboarding.skills.title": "Zacznij uczyć się nowych umiejętności",
+  "views.auth.onboarding.skip": "Pomiń",
+  "views.auth.onboarding.tutors.submit": "Dalej",
+  "views.auth.onboarding.tutors.subtitle": "Dzięki naszej platformie możesz łatwo łączyć się z tysiącami korepetytorów.",
+  "views.auth.onboarding.tutors.title": "Połącz się z nauczycielami"
+}

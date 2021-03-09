@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "149573016721",
+    "project_id": "cleverly-e25cf",
+    "storage_bucket": "cleverly-e25cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149573016721:android:3e096c6accab12bf09f330",
+        "android_client_info": {
+          "package_name": "com.awesomeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149573016721-amatjtg9dbs2fd8kspk05m37estsek4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqlyMfcXIHCuuxWUBY9jZtemPTQw_lrLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149573016721-amatjtg9dbs2fd8kspk05m37estsek4v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "149573016721-1vpt2bcl4alanmfbna80g3hoe48qji2s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.Cleverly"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
