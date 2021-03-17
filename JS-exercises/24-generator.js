@@ -14,3 +14,11 @@ console.log(rg.next());
 console.log(rg.next().value);
 console.log(rg.next().done);
 console.log(rg.next());
+
+
+// generacja w pętli
+console.log("Inny sposób generacji:");
+var numbers = randomGen(50, 100, 10);
+for(var num of numbers) 
+    console.log(num);
+
