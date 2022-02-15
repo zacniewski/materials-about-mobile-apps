@@ -13,3 +13,20 @@
   8. folder 'rn_basic_calculator' zawiera implementację kalkulatora w React Native z wykorzystaniem React NAtive CLI,    
   9. folder 'slides' zawiera wykłady dotyczące programowania aplikacji dla systemu Android,  
   10. folder 'SQLite' zawiera aplikację wykorzystującą bazę SQLite do przechowywania danych.  
+
+
+#### Technologie mobilne
+
+### 1. Natywne aplikacje  
+1. Android - [oficjalna](https://developer.android.com/) dokumentacja.
+2. iOS - [oficjalna](https://developer.apple.com/) dokumentacja.
+
+### 2. Aplikacje cross-platform i PWA (Progressive Web Apps)
+1. React Native - [oficjalna](https://reactnative.dev/) dokumentacja,
+2. Xamarin - [oficjalna](https://visualstudio.microsoft.com/xamarin/) dokumentacja.
+3. Flutter - [oficjalna](https://flutter.dev/) dokumentacja.
+4. Kotlin - [oficjalna](https://kotlinlang.org/) dokumentacja.
+5. Ionic - [oficjalna](https://ionicframework.com/) dokumentacja.
+6. Qt - [oficjalna](https://www.qt.io/) dokumentacja.
+7. Unity - [oficjalna](https://unity.com/features/mobile) dokumentacja.
+8. Quasar - [oficjalna](https://quasar.dev/) dokumentacja.
