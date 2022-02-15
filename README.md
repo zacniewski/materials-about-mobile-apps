@@ -21,7 +21,7 @@
 1. Android - [oficjalna](https://developer.android.com/) dokumentacja.
 2. iOS - [oficjalna](https://developer.apple.com/) dokumentacja.
 
-### 2. Aplikacje cross-platform i PWA (Progressive Web Apps)
+#### 2. Aplikacje cross-platform i PWA (Progressive Web Apps)
 1. React Native - [oficjalna](https://reactnative.dev/) dokumentacja,
 2. Xamarin - [oficjalna](https://visualstudio.microsoft.com/xamarin/) dokumentacja.
 3. Flutter - [oficjalna](https://flutter.dev/) dokumentacja.
