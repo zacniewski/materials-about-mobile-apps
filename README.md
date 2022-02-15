@@ -15,9 +15,9 @@
   10. folder 'SQLite' zawiera aplikację wykorzystującą bazę SQLite do przechowywania danych.  
 
 
-#### Technologie mobilne
+### Technologie mobilne
 
-### 1. Natywne aplikacje  
+#### 1. Natywne aplikacje  
 1. Android - [oficjalna](https://developer.android.com/) dokumentacja.
 2. iOS - [oficjalna](https://developer.apple.com/) dokumentacja.
 
