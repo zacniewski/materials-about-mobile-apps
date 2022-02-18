@@ -1,6 +1,6 @@
 ### Materiały z "Aplikacji mobilnych dla systemu Android"
 
-#### Opis zawartości
+#### I. Opis zawartości folderów z projektami
 
   0. folder 'button-incrementer' zawiera prostą (jeden plik) implementację inkrementacji stanu liczby kliknięć za pomocą hook'a useState w React Native za pomocą Expo,  
   1. folder 'calculator-with-expo' zawiera prostą (jeden plik) implementację kalkulatora w React Native za pomocą Expo,  
@@ -15,13 +15,13 @@
   10. folder 'SQLite' zawiera aplikację wykorzystującą bazę SQLite do przechowywania danych.  
 
 
-### Technologie mobilne - przegląd
+### II. Technologie mobilne - przegląd
 
-#### 1. Natywne aplikacje  
+#### A. Natywne aplikacje  
 1. Android - [oficjalna](https://developer.android.com/) dokumentacja.
 2. iOS - [oficjalna](https://developer.apple.com/) dokumentacja.
 
-#### 2. Aplikacje cross-platform i PWA (Progressive Web Apps)
+#### B. Aplikacje cross-platform i PWA (Progressive Web Apps)
 1. React Native - [oficjalna](https://reactnative.dev/) dokumentacja,
 2. Xamarin - [oficjalna](https://visualstudio.microsoft.com/xamarin/) dokumentacja.
 3. Flutter - [oficjalna](https://flutter.dev/) dokumentacja.
@@ -33,11 +33,11 @@
 
 
 
-### Zalecane książki
+### III. Zalecane książki
 
-#### 1. Android 
+#### A. Android 
 1. Android. Programowanie aplikacji. Rusz głową! [Wydanie II](https://helion.pl/ksiazki/android-programowanie-aplikacji-rusz-glowa-wydanie-ii-dawn-griffiths-david-griffiths,andrr2.htm#format/d), 2018.
 2. Head First Android Development, 3rd Edition [Wydanie III](https://www.oreilly.com/library/view/head-first-android/9781492076513/), 2021.
 
-#### 2. React Native 
+#### B. React Native 
 1. React and React Native. [Second edition](https://helion.pl/ksiazki/react-and-react-native-second-edition-adam-boduch,e_159g.htm#format/e), 2018.
