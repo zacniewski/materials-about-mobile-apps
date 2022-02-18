@@ -15,7 +15,7 @@
   10. folder 'SQLite' zawiera aplikację wykorzystującą bazę SQLite do przechowywania danych.  
 
 
-### Technologie mobilne
+### Technologie mobilne - przegląd
 
 #### 1. Natywne aplikacje  
 1. Android - [oficjalna](https://developer.android.com/) dokumentacja.
@@ -30,3 +30,14 @@
 6. Qt - [oficjalna](https://www.qt.io/) dokumentacja.
 7. Unity - [oficjalna](https://unity.com/features/mobile) dokumentacja.
 8. Quasar - [oficjalna](https://quasar.dev/) dokumentacja.
+
+
+
+### Zalecane książki
+
+#### 1. Android 
+1. Android. Programowanie aplikacji. Rusz głową! [Wydanie II](https://helion.pl/ksiazki/android-programowanie-aplikacji-rusz-glowa-wydanie-ii-dawn-griffiths-david-griffiths,andrr2.htm#format/d), 2018.
+2. Head First Android Development, 3rd Edition [Wydanie III](https://www.oreilly.com/library/view/head-first-android/9781492076513/), 2021.
+
+#### 2. React Native 
+1. React and React Native. [Second edition](https://helion.pl/ksiazki/react-and-react-native-second-edition-adam-boduch,e_159g.htm#format/e), 2018.
