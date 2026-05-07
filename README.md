@@ -1,43 +1,93 @@
-### Materiały z "Aplikacji mobilnych dla systemu Android"
+# Materiały z "Aplikacji mobilnych dla systemu Android"
 
-#### I. Opis zawartości folderów z projektami
+Repozytorium zawiera materiały edukacyjne, przykładowe projekty oraz zasoby dotyczące programowania aplikacji mobilnych, ze szczególnym uwzględnieniem systemu Android oraz frameworków cross-platformowych takich jak React Native.
 
-  0. folder 'button-incrementer' zawiera prostą (jeden plik) implementację inkrementacji stanu liczby kliknięć za pomocą hook'a useState w React Native za pomocą Expo,  
-  1. folder 'calculator-with-expo' zawiera prostą (jeden plik) implementację kalkulatora w React Native za pomocą Expo,  
-  2. folder 'cleverly-main' zawiera aplikację z kursu ["Zostań programistą aplikacji mobilnych"](https://ebookpoint.pl/ksiazki/react-native-kurs-video-zostan-programista-aplikacji-mobilnych-sebastian-mysakowski,vuczgl.htm),  
-  3. folder 'imagerotation' zawiera przykład aplikacji (React Native + Expo) do rotacji obrazków,  
-  4. folder 'Java-simple-exercises' zawiera proste ćwiczenia z Javy,    
-  5. folder 'JavaScriptReminder' zawiera aplikację (React Native) z informacjami na temat JavaScript,  
-  6. folder 'JS-exercises' zawiera ćwiczenia z ES6  
-  7. folder 'react-przypomnienie' zawiera ćwiczenia z tutoriala na [W3 Schools](https://www.w3schools.com/react/),    
-  8. folder 'rn_basic_calculator' zawiera implementację kalkulatora w React Native z wykorzystaniem React NAtive CLI,    
-  9. folder 'slides' zawiera wykłady dotyczące programowania aplikacji dla systemu Android,  
-  10. folder 'SQLite' zawiera aplikację wykorzystującą bazę SQLite do przechowywania danych.  
+---
 
+## 📋 Spis treści
+1. [Opis zawartości folderów](#-opis-zawartości-folderów)
+2. [Ekosystem technologii mobilnych](#-ekosystem-technologii-mobilnych)
+3. [Przegląd technologii](#-przegląd-technologii)
+4. [Zalecane książki i źródła](#-zalecane-książki-i-źródła)
+5. [Inne zasoby](#-inne-zasoby)
 
-### II. Technologie mobilne - przegląd
+---
 
-#### A. Natywne aplikacje  
-1. Android - [oficjalna](https://developer.android.com/) dokumentacja.
-2. iOS - [oficjalna](https://developer.apple.com/) dokumentacja.
+## 📂 Opis zawartości folderów
 
-#### B. Aplikacje cross-platform i PWA (Progressive Web Apps)
-1. React Native - [oficjalna](https://reactnative.dev/) dokumentacja,
-2. Xamarin - [oficjalna](https://visualstudio.microsoft.com/xamarin/) dokumentacja.
-3. Flutter - [oficjalna](https://flutter.dev/) dokumentacja.
-4. Kotlin - [oficjalna](https://kotlinlang.org/) dokumentacja.
-5. Ionic - [oficjalna](https://ionicframework.com/) dokumentacja.
-6. Qt - [oficjalna](https://www.qt.io/) dokumentacja.
-7. Unity - [oficjalna](https://unity.com/features/mobile) dokumentacja.
-8. Quasar - [oficjalna](https://quasar.dev/) dokumentacja.
+Poniższa tabela przedstawia projekty znajdujące się w repozytorium wraz z ich krótkim opisem i wykorzystaną technologią.
 
+| Folder | Opis | Technologia |
+| :--- | :--- | :--- |
+| `button-incrementer` | Prosta aplikacja zwiększająca licznik (useState) | React Native + Expo |
+| `calculator-with-expo` | Implementacja prostego kalkulatora | React Native + Expo |
+| `cleverly-main` | Projekt z kursu "Zostań programistą aplikacji mobilnych" | React Native |
+| `imagerotation` | Przykład aplikacji do rotacji obrazków | React Native + Expo |
+| `Java-simple-exercises` | Podstawowe ćwiczenia z języka Java | Java |
+| `JavaScriptReminder` | Kompendium wiedzy o JavaScript w formie aplikacji | React Native |
+| `JS-exercises` | Ćwiczenia z nowoczesnego JavaScriptu (ES6+) | JavaScript |
+| `react-przypomnienie` | Podstawy Reacta na bazie tutoriala W3Schools | React |
+| `rn_basic_calculator` | Kalkulator zbudowany bez użycia Expo | React Native CLI |
+| `slides` | Materiały dydaktyczne (wykłady) | PDF / Dokumenty |
+| `SQLite` | Aplikacja demonstracyjna z lokalną bazą danych | React Native + SQLite |
 
+---
 
-### III. Zalecane książki
+## 🛠 Ekosystem technologii mobilnych
 
-#### A. Android 
-1. Android. Programowanie aplikacji. Rusz głową! [Wydanie II](https://helion.pl/ksiazki/android-programowanie-aplikacji-rusz-glowa-wydanie-ii-dawn-griffiths-david-griffiths,andrr2.htm#format/d), 2018.
-2. Head First Android Development, 3rd Edition [Wydanie III](https://www.oreilly.com/library/view/head-first-android/9781492076513/), 2021.
+Poniższy diagram przedstawia podział technologii mobilnych ze względu na podejście do tworzenia aplikacji:
 
-#### B. React Native 
-1. React and React Native. [Second edition](https://helion.pl/ksiazki/react-and-react-native-second-edition-adam-boduch,e_159g.htm#format/e), 2018.
+```mermaid
+graph TD
+    A[Aplikacje Mobilne] --> B[Natywne]
+    A --> C[Cross-platform]
+    A --> D[PWA / Web]
+
+    B --> B1[Android - Kotlin/Java]
+    B --> B2[iOS - Swift]
+
+    C --> C1[React Native]
+    C --> C2[Flutter]
+    C --> C3[.NET MAUI]
+    C --> C4[Ionic]
+
+    D --> D1[HTML/CSS/JS]
+    D --> D2[Workery/Manifest]
+```
+
+---
+
+## 🚀 Przegląd technologii
+
+### A. Aplikacje Natywne
+1. **Android** - [Oficjalna dokumentacja](https://developer.android.com/). Nowoczesne podejście opiera się na **Jetpack Compose**.
+2. **iOS** - [Oficjalna dokumentacja](https://developer.apple.com/). Główne narzędzie to **SwiftUI**.
+
+### B. Rozwiązania Cross-platform i Hybrid
+1. **React Native** - [Dokumentacja](https://reactnative.dev/). Pozwala budować natywne aplikacje przy użyciu Reacta.
+2. **Flutter** - [Dokumentacja](https://flutter.dev/). Framework od Google używający języka Dart.
+3. **.NET MAUI** - [Dokumentacja](https://dotnet.microsoft.com/en-us/apps/maui). Następca Xamarina.
+4. **Kotlin Multiplatform (KMP)** - [Dokumentacja](https://kotlinlang.org/lp/multiplatform/). Współdzielenie logiki biznesowej między platformami.
+5. **Ionic** - [Dokumentacja](https://ionicframework.com/). Budowanie aplikacji z wykorzystaniem technologii webowych.
+6. **Unity** - [Dokumentacja](https://unity.com/features/mobile). Dominujący silnik w produkcji gier mobilnych.
+7. **Quasar** - [Dokumentacja](https://quasar.dev/). Framework oparty na Vue.js.
+
+---
+
+## 📚 Zalecane książki i źródła
+
+### Android
+1. **Android Programming: The Big Nerd Ranch Guide (5th Edition)**, 2022. (Bardzo ceniony podręcznik).
+2. **Head First Android Development (3rd Edition)**, 2021. [Link](https://www.oreilly.com/library/view/head-first-android/9781492076513/).
+3. **Android. Programowanie aplikacji. Rusz głową! (Wydanie II)**, 2018. [Link Helion](https://helion.pl/ksiazki/android-programowanie-aplikacji-rusz-glowa-wydanie-ii-dawn-griffiths-david-griffiths,andrr2.htm).
+
+### React Native & React
+1. **React and React Native (4th Edition)** - Adam Boduch, 2022. [Link](https://www.packtpub.com/product/react-and-react-native-fourth-edition/9781803231280). (Zaktualizowane o najnowsze standardy).
+2. **Fullstack React Native** - The Complete Guide to React Native, 2020+.
+
+---
+
+## 🔗 Inne zasoby
+- [Roadmap.sh - Android Developer](https://roadmap.sh/android)
+- [Roadmap.sh - React Native Developer](https://roadmap.sh/react-native)
+- [Expo Documentation](https://docs.expo.dev/)
